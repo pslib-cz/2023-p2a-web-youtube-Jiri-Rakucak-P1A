@@ -5,6 +5,7 @@
    gap: 1em;
    justify-content: center;
    flex-wrap: wrap;
+   align-items: center;
 }
 
 .ytv {
@@ -12,28 +13,34 @@
    justify-self: center;
    flex-flow: column ;
    align-items: space-between;
+   gap: 1em;
 }
 .ytv__bottom {
    display: flex;
-   flex-shrink: 1;
    flex-direction: row;
+   justify-content: space-between;
 }
 
 .ytv__left {
-   
+   display: flex;
+   flex-flow: row nowrap;
 }
 .ytv__right {
-   justify-content: flex-end;
-}
-.profile {
-    
-}
-.profile__text {
-    
-}
-.icon {
 
 }
+.profile {
+   display: flex;
+   flex-direction: row;
+   gap: 1em;
+   align-items: center;
+}
+.profile__text {
+
+}
+.icon {
+   flex-grow: 0;
+   flex-shrink: 0;
+}
 .btn--flex {
-    
+   
 }
