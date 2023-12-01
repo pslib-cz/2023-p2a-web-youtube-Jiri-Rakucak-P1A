@@ -1,20 +1,29 @@
 /* DOKUMENT STYLŮ K ÚPRAVĚ */
 
 .main {
+   display: flex;
    gap: 1em;
+   justify-content: center;
+   flex-wrap: wrap;
 }
 
 .ytv {
-    
+   display: flex;
+   justify-self: center;
+   flex-flow: column ;
+   align-items: space-between;
 }
 .ytv__bottom {
-    
+   display: flex;
+   flex-shrink: 1;
+   flex-direction: row;
 }
+
 .ytv__left {
-    
+   
 }
 .ytv__right {
-    
+   justify-content: flex-end;
 }
 .profile {
     
