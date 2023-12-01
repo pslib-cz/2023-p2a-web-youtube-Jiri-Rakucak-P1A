@@ -18,16 +18,17 @@
 .ytv__bottom {
    display: flex;
    flex-flow: row wrap;
-   justify-content: space-between;
    gap: 1em;
-   align-items: flex-end;
+   justify-content: space-between;
+   align-items: space-between;
 }
 
 .ytv__left {
    display: flex;
 }
 .ytv__right {
-   flex-flow: row wrap;   
+   display: flex;
+   flex-flow: row wrap;  
 }
 .profile {
    display: flex;
